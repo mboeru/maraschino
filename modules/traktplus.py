@@ -40,7 +40,7 @@ create_dir(os.path.join(DATA_DIR, 'cache', 'trakt', 'movies'))
 def small_poster(image):
     if not 'poster-small' in image:
         x = image.rfind('.')
-        image = image[:x] + '-138' + image[x:]
+#        image = image[:x] + '-138' + image[x:]
     return image
 
 
